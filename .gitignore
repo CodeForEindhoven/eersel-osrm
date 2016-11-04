@@ -1,0 +1,6 @@
+*.osm
+*.pbf
+osmconvert
+osmfilter
+osmupdate
+*_temp/

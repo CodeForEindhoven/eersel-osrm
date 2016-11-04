@@ -1,0 +1,13 @@
+way[gritting=priority_1]
+ {
+   width: 12;
+   color: red;
+   opacity: 1;
+ }
+
+way[gritting=priority_2]
+ {
+   width: 12;
+   color: #0f0;
+   opacity: 1;
+ }
