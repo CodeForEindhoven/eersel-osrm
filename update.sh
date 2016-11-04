@@ -27,6 +27,6 @@ echo "[info] starting osm planet update"
 cp planet-latest.osm.pbf temp-planet-latest.osm.pbf
 echo "[info] creating extract for Eersel"
 ./osmconvert planet-latest.osm.pbf -B=eersel_noord-brabant.poly --complete-ways -o=eersel_noord-brabant.osm
-echo "[info] extract road network for Eersel"
-./osmfilter eersel_noord-brabant.osm --keep="highway=" -o=eersel_wegen.osm
+#echo "[info] extract road network for Eersel"
+#./osmfilter eersel_noord-brabant.osm --keep="highway=" -o=eersel_wegen.osm
 echo "[info] update finished"
